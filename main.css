@@ -1,5 +1,4 @@
 body {
-  font-family: 'Exo 2', sans-serif;
   background-color: #f8f8f8;
   font-family: 'Exo 2', sans-serif;
   margin: 0;
@@ -12,6 +11,7 @@ header {
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
+  background-color: #1E1F21;
 }
 
 ul {
@@ -26,7 +26,7 @@ li {
 }
 
 .logo_color_white {
-  color: #000;
+  color: #fff;
 }
 
 .logo_color_orange {
@@ -55,7 +55,7 @@ main {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 150px auto;
+  margin: 40px auto;
 }
 
 .product_list {
@@ -78,4 +78,32 @@ main {
 
 .product_list_price {
   font-size: 14px;
+}
+
+@media all and (max-width: 667px) and (min-width: 360px) {
+  nav a {
+    font-size: 12px;
+  }
+
+  .logo {
+    font-weight: 300;
+    font-size: 12px;
+    margin-left: 24px;
+  }
+
+  header {
+    background-color: #1E1F21;
+  }
+
+  main {
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .product_list {
+    background-color: #fff;
+    width: 90%;
+    height: 30%;
+    margin: 15px auto;
+    text-align: center;
+  }
 }
