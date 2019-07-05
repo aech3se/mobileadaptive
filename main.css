@@ -1,0 +1,81 @@
+body {
+  font-family: 'Exo 2', sans-serif;
+  background-color: #f8f8f8;
+  font-family: 'Exo 2', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  margin-right: 24px;
+  color: #fff;
+}
+
+.logo_color_white {
+  color: #000;
+}
+
+.logo_color_orange {
+  color: #DBC208;
+}
+
+.logo {
+  font-weight: 800;
+}
+
+nav a {
+  text-decoration: none;
+  color: #757776;
+}
+
+nav a:active {
+  color: #DBC208;
+}
+
+.active {
+  color: #DBC208
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 150px auto;
+}
+
+.product_list {
+  background-color: #fff;
+  width: 30%;
+  height: 30%;
+  margin: 15px;
+  text-align: center;
+}
+
+.product_list_img {
+  width: 80%;
+  height: auto;
+}
+
+.product_list_name {
+  font-size: 16px;
+  color: red;
+}
+
+.product_list_price {
+  font-size: 14px;
+}
