@@ -63,6 +63,7 @@ main {
 }
 
 .product_list_img {
+  padding-top: 15px;
   width: 80%;
   height: auto;
 }
@@ -107,7 +108,7 @@ main {
   }
 
   .product_list_img {
-    min-width: 90%;
+    min-width: 80%;
     height: auto;
   }
 }
